@@ -19,6 +19,7 @@ const ProductsListHome = ({ title, games }: Props) => (
             title={game.title}
             infos={game.infos}
             rating={game.rating}
+            link={`/ladolcevitatrattoria`}
           />
         ))}
       </List>

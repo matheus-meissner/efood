@@ -7,9 +7,7 @@ const Banner = () => (
       <div className="container">
         <Textos>
           <Titulo>Italiana</Titulo>
-          <div>
-            <Precos>La Dolce Vita Trattoria</Precos>
-          </div>
+          <Precos>La Dolce Vita Trattoria</Precos>
         </Textos>
       </div>
     </div>

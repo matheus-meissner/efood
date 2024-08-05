@@ -8,6 +8,7 @@ import {
 } from './styles'
 
 import Rating from '../Rating'
+import { useNavigate } from 'react-router-dom'
 
 type Props = {
   title: string
@@ -15,7 +16,7 @@ type Props = {
   image: string
   infos: string[]
   rating: number
-  showTags?: boolean
+  link?: string
 }
 
 const ProductHome: React.FC<Props> = ({
@@ -24,24 +25,34 @@ const ProductHome: React.FC<Props> = ({
   image,
   infos,
   rating,
-  showTags
-}) => (
-  <Card>
-    <img src={image} alt={title} />
-    <Rating value={rating} />
-    <Conteudo>
-      <Titulo>{title}</Titulo>
-      <Descricao>{description}</Descricao>
-      {showTags && (
+  link
+}) => {
+  const navigate = useNavigate()
+
+  const handleSaibaMaisClick = () => {
+    if (link) {
+      navigate(link)
+    }
+  }
+
+  return (
+    <Card>
+      <img src={image} alt={title} />
+      <Rating value={rating} />
+      <Conteudo>
+        <Titulo>{title}</Titulo>
+        <Descricao>{description}</Descricao>
         <Infos>
           {infos.map((info, index) => (
             <span key={index}>{info}</span>
           ))}
         </Infos>
-      )}
-      <BotaoSaibaMais>Saiba Mais</BotaoSaibaMais>
-    </Conteudo>
-  </Card>
-)
+        <BotaoSaibaMais onClick={handleSaibaMaisClick}>
+          Saiba Mais
+        </BotaoSaibaMais>
+      </Conteudo>
+    </Card>
+  )
+}
 
 export default ProductHome

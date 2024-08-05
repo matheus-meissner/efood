@@ -18,7 +18,7 @@ export const Imagem = styled.div`
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-start;
   }
 `
@@ -31,11 +31,12 @@ export const Textos = styled.div`
 
 export const Titulo = styled.h2`
   font-weight: 100;
-  margin-top: 25px;
+  margin-bottom: 160px;
+  font-size: 32px;
 `
 
 export const Precos = styled.p`
-  font-weight: 900;
+  font-weight: 700;
 
   span {
     text-decoration: line-through;
