@@ -13,7 +13,8 @@ const promocoes: Game[] = [
     image: pizza,
     category: 'test',
     system: 'test',
-    infos: []
+    infos: [],
+    rating: 1
   },
   {
     id: 2,
@@ -23,7 +24,8 @@ const promocoes: Game[] = [
     image: pizza,
     category: 'test',
     system: 'test',
-    infos: []
+    infos: [],
+    rating: 1
   },
   {
     id: 3,
@@ -33,7 +35,8 @@ const promocoes: Game[] = [
     image: pizza,
     category: 'test',
     system: 'test',
-    infos: []
+    infos: [],
+    rating: 1
   },
   {
     id: 4,
@@ -43,7 +46,8 @@ const promocoes: Game[] = [
     image: pizza,
     category: 'test',
     system: 'test',
-    infos: []
+    infos: [],
+    rating: 1
   },
   {
     id: 5,
@@ -53,7 +57,8 @@ const promocoes: Game[] = [
     image: pizza,
     category: 'test',
     system: 'test',
-    infos: []
+    infos: [],
+    rating: 1
   },
   {
     id: 6,
@@ -63,7 +68,8 @@ const promocoes: Game[] = [
     image: pizza,
     category: 'test',
     system: 'test',
-    infos: []
+    infos: [],
+    rating: 1
   }
 ]
 

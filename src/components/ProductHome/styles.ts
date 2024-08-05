@@ -21,7 +21,7 @@ export const Titulo = styled.h3`
   font-weight: 700;
   font-size: 18px;
   display: block;
-  margin-top: 8px;
+  margin-top: 2px;
 `
 
 export const Descricao = styled.p`

@@ -27,6 +27,7 @@ export const SocialLinks = styled.ul`
 
 export const SocialLinkItem = styled.li`
   margin: 0 8px;
+  cursor: pointer;
 `
 
 export const Link = styled.a`

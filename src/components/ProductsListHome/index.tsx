@@ -18,6 +18,7 @@ const ProductsListHome = ({ title, games }: Props) => (
             image={game.image}
             title={game.title}
             infos={game.infos}
+            rating={game.rating}
           />
         ))}
       </List>

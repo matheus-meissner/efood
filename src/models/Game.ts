@@ -6,6 +6,7 @@ class Game {
   category: string
   system: string
   infos: string[]
+  rating: number
 
   constructor(
     id: number,
@@ -14,7 +15,8 @@ class Game {
     title: string,
     category: string,
     system: string,
-    infos: string[]
+    infos: string[],
+    rating: number
   ) {
     this.id = id
     this.description = description
@@ -23,6 +25,7 @@ class Game {
     this.category = category
     this.system = system
     this.infos = infos
+    this.rating = rating
   }
 }
 

@@ -12,7 +12,8 @@ const promocoes: Game[] = [
     image: sushi,
     category: 'test',
     system: 'test',
-    infos: ['Destaque da semana', 'Japonesa']
+    infos: ['Destaque da semana', 'Japonesa'],
+    rating: 4.9
   },
   {
     id: 2,
@@ -22,7 +23,8 @@ const promocoes: Game[] = [
     image: macarrao,
     category: 'test',
     system: 'test',
-    infos: ['Italiana']
+    infos: ['Italiana'],
+    rating: 4.6
   },
   {
     id: 3,
@@ -32,7 +34,8 @@ const promocoes: Game[] = [
     image: macarrao,
     category: 'test',
     system: 'test',
-    infos: ['Italiana']
+    infos: ['Italiana'],
+    rating: 4.6
   },
   {
     id: 4,
@@ -42,7 +45,8 @@ const promocoes: Game[] = [
     image: macarrao,
     category: 'test',
     system: 'test',
-    infos: ['Italiana']
+    infos: ['Italiana'],
+    rating: 4.6
   },
   {
     id: 5,
@@ -52,7 +56,8 @@ const promocoes: Game[] = [
     image: macarrao,
     category: 'test',
     system: 'test',
-    infos: ['Italiana']
+    infos: ['Italiana'],
+    rating: 4.6
   },
   {
     id: 6,
@@ -62,7 +67,8 @@ const promocoes: Game[] = [
     image: macarrao,
     category: 'test',
     system: 'test',
-    infos: ['Italiana']
+    infos: ['Italiana'],
+    rating: 4.6
   }
 ]
 

@@ -7,16 +7,26 @@ import {
   Infos
 } from './styles'
 
+import Rating from '../Rating'
+
 type Props = {
   title: string
   description: string
   image: string
   infos: string[]
+  rating: number
 }
 
-const ProductHome: React.FC<Props> = ({ title, description, image, infos }) => (
+const ProductHome: React.FC<Props> = ({
+  title,
+  description,
+  image,
+  infos,
+  rating
+}) => (
   <Card>
     <img src={image} alt={title} />
+    <Rating value={rating} />
     <Conteudo>
       <Titulo>{title}</Titulo>
       <Descricao>{description}</Descricao>
