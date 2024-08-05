@@ -9,8 +9,7 @@ export const HeaderBar = styled.header`
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding-top: 40px;
+  padding-top: 52px;
   padding-bottom: 64px;
   width: 100%;
 
@@ -23,7 +22,7 @@ export const HeaderBar = styled.header`
 `
 export const LogoHeader = styled.img`
   display: block;
-  margin-left: 120px;
+  margin-left: 100px;
 `
 export const HeaderContain = styled.div`
   display: flex;
