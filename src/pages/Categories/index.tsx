@@ -10,42 +10,60 @@ const promocoes: Game[] = [
     title: 'Pizza Marguerita',
     description:
       'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!',
-    image: pizza
+    image: pizza,
+    category: 'test',
+    system: 'test',
+    infos: []
   },
   {
     id: 2,
     title: 'Pizza Marguerita',
     description:
       'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!',
-    image: pizza
+    image: pizza,
+    category: 'test',
+    system: 'test',
+    infos: []
   },
   {
     id: 3,
     title: 'Pizza Marguerita',
     description:
       'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!',
-    image: pizza
+    image: pizza,
+    category: 'test',
+    system: 'test',
+    infos: []
   },
   {
     id: 4,
     title: 'Pizza Marguerita',
     description:
       'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!',
-    image: pizza
+    image: pizza,
+    category: 'test',
+    system: 'test',
+    infos: []
   },
   {
     id: 5,
     title: 'Pizza Marguerita',
     description:
       'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!',
-    image: pizza
+    image: pizza,
+    category: 'test',
+    system: 'test',
+    infos: []
   },
   {
     id: 6,
     title: 'Pizza Marguerita',
     description:
       'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!',
-    image: pizza
+    image: pizza,
+    category: 'test',
+    system: 'test',
+    infos: []
   }
 ]
 

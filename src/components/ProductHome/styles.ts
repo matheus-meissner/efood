@@ -37,6 +37,15 @@ export const Infos = styled.div`
   position: absolute;
   top: 16px;
   right: 16px;
+  display: flex;
+  gap: 8px;
+
+  span {
+    background-color: ${cores.laranja};
+    color: ${cores.begeEscuro};
+    font-size: 12px;
+    padding: 6px;
+  }
 `
 
 export const BotaoSaibaMais = styled.button`
