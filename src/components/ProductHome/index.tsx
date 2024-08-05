@@ -15,6 +15,7 @@ type Props = {
   image: string
   infos: string[]
   rating: number
+  showTags?: boolean
 }
 
 const ProductHome: React.FC<Props> = ({
@@ -22,7 +23,8 @@ const ProductHome: React.FC<Props> = ({
   description,
   image,
   infos,
-  rating
+  rating,
+  showTags
 }) => (
   <Card>
     <img src={image} alt={title} />
@@ -30,11 +32,13 @@ const ProductHome: React.FC<Props> = ({
     <Conteudo>
       <Titulo>{title}</Titulo>
       <Descricao>{description}</Descricao>
-      <Infos>
-        {infos.map((info, index) => (
-          <span key={index}>{info}</span>
-        ))}
-      </Infos>
+      {showTags && (
+        <Infos>
+          {infos.map((info, index) => (
+            <span key={index}>{info}</span>
+          ))}
+        </Infos>
+      )}
       <BotaoSaibaMais>Saiba Mais</BotaoSaibaMais>
     </Conteudo>
   </Card>

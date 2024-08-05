@@ -5,9 +5,10 @@ import { List, Container } from './styles'
 export type Props = {
   title: string
   games: Game[]
+  showTags?: boolean
 }
 
-const ProductsList = ({ title, games }: Props) => (
+const ProductsList = ({ title, games, showTags = true }: Props) => (
   <Container>
     <div className="container">
       <List>
@@ -17,9 +18,8 @@ const ProductsList = ({ title, games }: Props) => (
             description={game.description}
             image={game.image}
             title={game.title}
-            category={game.category}
-            system={game.system}
             infos={game.infos}
+            showTags={showTags}
           />
         ))}
       </List>

@@ -11,8 +11,6 @@ const promocoes: Game[] = [
     description:
       'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!',
     image: pizza,
-    category: 'test',
-    system: 'test',
     infos: [],
     rating: 1
   },
@@ -22,8 +20,6 @@ const promocoes: Game[] = [
     description:
       'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!',
     image: pizza,
-    category: 'test',
-    system: 'test',
     infos: [],
     rating: 1
   },
@@ -33,8 +29,6 @@ const promocoes: Game[] = [
     description:
       'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!',
     image: pizza,
-    category: 'test',
-    system: 'test',
     infos: [],
     rating: 1
   },
@@ -44,8 +38,6 @@ const promocoes: Game[] = [
     description:
       'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!',
     image: pizza,
-    category: 'test',
-    system: 'test',
     infos: [],
     rating: 1
   },
@@ -55,8 +47,6 @@ const promocoes: Game[] = [
     description:
       'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!',
     image: pizza,
-    category: 'test',
-    system: 'test',
     infos: [],
     rating: 1
   },
@@ -66,8 +56,6 @@ const promocoes: Game[] = [
     description:
       'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!',
     image: pizza,
-    category: 'test',
-    system: 'test',
     infos: [],
     rating: 1
   }

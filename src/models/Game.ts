@@ -3,8 +3,6 @@ class Game {
   image: string
   title: string
   id: number
-  category: string
-  system: string
   infos: string[]
   rating: number
 
@@ -13,8 +11,6 @@ class Game {
     description: string,
     image: string,
     title: string,
-    category: string,
-    system: string,
     infos: string[],
     rating: number
   ) {
@@ -22,8 +18,6 @@ class Game {
     this.description = description
     this.image = image
     this.title = title
-    this.category = category
-    this.system = system
     this.infos = infos
     this.rating = rating
   }
