@@ -1,47 +1,33 @@
-import styled from 'styled-components'
+import { styled } from 'styled-components'
 import { cores } from '../../styles'
 
-export const Container = styled.footer`
+export const FooterStyle = styled.footer`
+  padding-top: 40px;
+  padding-bottom: 40px;
   background-color: ${cores.begeEscuro};
-  padding: 32px 0;
-  margin-top: 64px;
-  text-align: center;
-`
-
-export const FooterSection = styled.div`
-  margin-bottom: 32px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
-`
-
-export const Logo = styled.div`
-  margin-bottom: 16px;
-`
-
-export const SocialLinks = styled.ul`
-  display: flex;
-  justify-content: center;
-  margin-top: 16px;
-`
-
-export const SocialLinkItem = styled.li`
-  margin: 0 8px;
-  cursor: pointer;
-`
-
-export const Link = styled.a`
-  color: ${cores.cinzaClaro};
-  text-decoration: none;
-`
-
-export const DescricaoFooter = styled.p`
-  margin: 0 auto;
-  width: 480px;
-  height: 24px;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 12px;
   text-align: center;
-  margin-bottom: 8px;
+`
+
+export const Logo = styled.img`
+  width: 125px;
+`
+
+export const List = styled.ul`
+  margin-top: 32px;
+  margin-bottom: 80px;
+  display: flex;
+  list-style: none;
+`
+
+export const ListItem = styled.li`
+  margin-right: 8px;
+`
+
+export const Copyrights = styled.p`
+  max-width: 480px;
+  font-size: 10px;
 `

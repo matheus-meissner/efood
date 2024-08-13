@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components'
 
 export const cores = {
   laranja: '#E66767',
@@ -11,23 +11,22 @@ export const cores = {
   begeEscuro: '#FFEBD9'
 }
 
-export const GlobalCss = createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
   * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
-    list-style: none;
-  }
+      margin: 0;
+      padding:0;
+      box-sizing: border-box;
+      font-family: Roboto, sans-serif;
+    }
 
-  body {
-    background-color: ${cores.bege};
-    color: ${cores.laranja};
-  }
+    body {
+      background-color: ${cores.bege};
+      color: ${cores.laranja};
+    }
+`
+export default GlobalStyle
 
-  .container {
-    max-width: 1024px;
-    width: 100%;
-    margin: 0 auto;
-  }
+export const Container = styled.div`
+  width: 100%;
+  margin: 0 auto;
 `

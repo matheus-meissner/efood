@@ -1,45 +1,123 @@
 import styled from 'styled-components'
 import { cores } from '../../styles'
 
-export const Card = styled.div`
-  background-color: ${cores.laranja};
-  color: ${cores.bege};
+export const ProductCard = styled.div`
+  width: 320px;
   padding: 8px;
+  background-color: ${cores.laranja};
+  color: ${cores.begeEscuro};
+  display: flex;
+  flex-direction: column;
   position: relative;
-  margin-bottom: 32px;
+
+  img {
+    height: 170px;
+    object-fit: cover;
+  }
+
+  h2 {
+    margin: 8px;
+    font-weight: 900;
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: ${cores.begeEscuro};
+  }
+
+  button {
+    color: ${cores.laranja};
+    background-color: ${cores.begeEscuro};
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    line-height: 16px;
+    cursor: pointer;
+  }
 `
 
-export const Titulo = styled.h3`
-  font-weight: 900;
-  font-size: 16px;
-  display: block;
-  margin-top: 8px;
-`
-
-export const Descricao = styled.p`
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
-  display: block;
-  margin-top: 8px;
-  margin-bottom: 4px;
-`
-
-export const Infos = styled.div`
-  position: absolute;
-  top: 16px;
-  right: 16px;
-`
-
-export const BotaoCarrinho = styled.button`
-  background-color: ${cores.begeEscuro};
+export const Modal = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  color: ${cores.laranja};
-  border: none;
-  font-weight: 700;
-  font-size: 14px;
-  text-align: center;
-  padding: 4px;
-  margin-top: 8px;
-  cursor: pointer;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  display: none;
+
+  &.isVisible {
+    display: flex;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+`
+
+export const ModalContent = styled.div`
+  position: relative;
+  max-width: 1024px;
+  z-index: 1;
+
+  > div {
+    display: flex;
+    padding: 0 0 32px 32px;
+    background-color: ${cores.laranja};
+    color: ${cores.begeEscuro};
+
+    > img {
+      width: 280px;
+      height: 280px;
+      margin-right: 24px;
+      object-fit: cover;
+      margin-top: 32px;
+    }
+
+    div {
+      display: block;
+
+      div {
+        display: flex;
+        justify-content: space-between;
+
+        h2 {
+          font-size: 21px;
+          font-weight: 900;
+          margin-top: 32px;
+        }
+
+        img {
+          height: 16px;
+          width: 16px;
+          margin: 8px;
+          cursor: pointer;
+        }
+      }
+
+      p {
+        margin: 16px 0;
+        font-size: 14px;
+      }
+
+      button {
+        border: none;
+        padding: 4px 7px;
+        font-size: 14px;
+        font-weight: 700;
+        background-color: ${cores.begeEscuro};
+        color: ${cores.laranja};
+      }
+    }
+  }
 `

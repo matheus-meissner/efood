@@ -1,47 +1,28 @@
-import {
-  Container,
-  DescricaoFooter,
-  FooterSection,
-  Link,
-  Logo,
-  SocialLinks,
-  SocialLinkItem
-} from './styles'
-import logo from '../../assets/images/efood-logo.png'
-import insta from '../../assets/images/instagram-round-svgrepo-com (1) 1.png'
-import face from '../../assets/images/Vector.png'
-import twitter from '../../assets/images/Group.png'
-
+import logo from '../../assets/images/logo.svg'
+import instagram from '../../assets/images/Instagram.svg'
+import meta from '../../assets/images/Meta.svg'
+import x from '../../assets/images/X.svg'
+import * as S from './styles'
 const Footer = () => (
-  <Container>
-    <FooterSection>
-      <Logo>
-        <img src={logo} alt="EFOOD" />
-      </Logo>
-      <SocialLinks>
-        <SocialLinkItem>
-          <Link>
-            <img src={insta} alt="Logo Instagram" />
-          </Link>
-        </SocialLinkItem>
-        <SocialLinkItem>
-          <Link>
-            <img src={face} alt="Logo Facebook" />
-          </Link>
-        </SocialLinkItem>
-        <SocialLinkItem>
-          <Link>
-            <img src={twitter} alt="Logo Twitter" />
-          </Link>
-        </SocialLinkItem>
-      </SocialLinks>
-    </FooterSection>
-    <DescricaoFooter>
+  <S.FooterStyle>
+    <S.Logo src={logo} alt="efood" />
+    <S.List>
+      <S.ListItem>
+        <img src={instagram} alt="" />
+      </S.ListItem>
+      <S.ListItem>
+        <img src={meta} alt="" />
+      </S.ListItem>
+      <S.ListItem>
+        <img src={x} alt="" />
+      </S.ListItem>
+    </S.List>
+    <S.Copyrights>
       A efood é uma plataforma para divulgação de estabelecimentos, a
       responsabilidade pela entrega, qualidade dos produtos é toda do
       estabelecimento contratado.
-    </DescricaoFooter>
-  </Container>
+    </S.Copyrights>
+  </S.FooterStyle>
 )
 
 export default Footer
