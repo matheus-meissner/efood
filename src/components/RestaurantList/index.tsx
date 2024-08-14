@@ -1,4 +1,4 @@
-import { Restaurante } from '../../pages/Home'
+import { Restaurante } from '../../Pages/Home'
 import Restaurant from '../Restaurant'
 import { List } from './syles'
 

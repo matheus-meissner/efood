@@ -25,9 +25,10 @@ export const Cabecalho = styled.div`
 `
 
 export const Logo = styled.img`
+  margin-top: 5px;
+  margin-left: 70px;
   width: 125px;
-  margin-left: 65px;
-  margin-top: 13px;
+  cursor: pointer;
 `
 export const HomeLink = styled(Link)`
   text-decoration: none;
