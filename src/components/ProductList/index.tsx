@@ -1,4 +1,4 @@
-import { Cardapio } from '../../pages/Home'
+import { Cardapio } from '../../Pages/Home'
 import Product from '../Product'
 import { ProductListStyle } from './styles'
 

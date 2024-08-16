@@ -1,11 +1,11 @@
 import styled, { createGlobalStyle } from 'styled-components'
 
 export const cores = {
-  laranja: '#E66767',
-  branca: '#fff',
-  bege: '#FFF8F2',
-  begeEscuro: '#FFEBD9',
-  preto: '#4B4B4B'
+  fontColor: '#E66767',
+  bgColor: '#FFF8F2',
+  branco: '#fff',
+  bgFooter: '#FFEBD9',
+  inputTxtColor: '#4B4B4B'
 }
 
 const GlobalStyle = createGlobalStyle`
@@ -17,8 +17,8 @@ const GlobalStyle = createGlobalStyle`
     }
 
     body {
-      background-color: ${cores.bege};
-      color: ${cores.laranja};
+      background-color: ${cores.bgColor};
+      color: ${cores.fontColor};
     }
 `
 export default GlobalStyle

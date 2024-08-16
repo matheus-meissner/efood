@@ -4,7 +4,7 @@ import { cores } from '../../styles'
 export const FooterStyle = styled.footer`
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: ${cores.begeEscuro};
+  background-color: ${cores.bgFooter};
   height: 300px;
   display: flex;
   flex-direction: column;

@@ -25,16 +25,15 @@ export const Cabecalho = styled.div`
 `
 
 export const Logo = styled.img`
-  margin-top: 5px;
-  margin-left: 70px;
   width: 125px;
-  cursor: pointer;
+  margin-left: 88px;
+  margin-top: 11px;
 `
 export const HomeLink = styled(Link)`
   text-decoration: none;
 
   &:visited {
-    color: ${cores.laranja};
+    color: ${cores.fontColor};
   }
 `
 
@@ -66,13 +65,13 @@ export const CabecalhoImg = styled.div`
 
     h1:first-child {
       font-weight: 100;
-      color: ${cores.branca};
+      color: ${cores.branco};
       z-index: 1;
     }
 
     h1:nth-child(2) {
       font-weight: 900;
-      color: ${cores.branca};
+      color: ${cores.branco};
       z-index: 1;
     }
   }

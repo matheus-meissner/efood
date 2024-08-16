@@ -20,7 +20,7 @@ export const CartContainer = styled.div`
   justify-content: flex-end;
   z-index: 1;
   font-size: 14px;
-  color: ${cores.bege};
+  color: ${cores.bgColor};
 
   &.is-open {
     display: flex;
@@ -42,7 +42,7 @@ export const CartMenu = styled.div`
 export const CartStyle = styled.aside`
   max-width: 360px;
   width: 100%;
-  background-color: ${cores.laranja};
+  background-color: ${cores.fontColor};
   padding: 32px 8px;
   z-index: 1;
 
@@ -51,8 +51,8 @@ export const CartStyle = styled.aside`
       position: relative;
       display: flex;
       padding: 8px;
-      background-color: ${cores.bege};
-      color: ${cores.laranja};
+      background-color: ${cores.bgColor};
+      color: ${cores.fontColor};
       margin-bottom: 16px;
 
       h3 {
@@ -79,7 +79,7 @@ export const RemoveButton = styled.button`
   border: none;
 `
 export const Total = styled.div`
-  color: ${cores.bege};
+  color: ${cores.bgColor};
   display: flex;
   justify-content: space-between;
   margin: 40px 0 16px;
@@ -87,18 +87,19 @@ export const Total = styled.div`
 export const CartButton = styled.button`
   width: 100%;
   border: none;
-  color: ${cores.laranja};
-  background-color: ${cores.begeEscuro};
+  color: ${cores.fontColor};
+  background-color: ${cores.bgFooter};
   font-weight: 700;
   padding: 4px;
   margin-bottom: 8px;
+  cursor: pointer;
 `
 export const CartButtonLink = styled(Link)`
   max-width: 100%;
   width: 100%;
   border: none;
-  color: ${cores.laranja};
-  background-color: ${cores.begeEscuro};
+  color: ${cores.fontColor};
+  background-color: ${cores.bgFooter};
   font-weight: 700;
   padding: 4px;
   margin-bottom: 8px;
@@ -161,8 +162,8 @@ export const InputGroup = styled.div<InputGroupProps>`
   }
 
   input {
-    background-color: ${cores.begeEscuro};
-    color: ${cores.laranja};
+    background-color: ${cores.bgFooter};
+    color: ${cores.inputTxtColor};
     border: none;
     height: 32px;
     width: 100%;
@@ -175,8 +176,8 @@ export const InputGroup = styled.div<InputGroupProps>`
 `
 
 export const Input = styled.input<InputProps>`
-  background-color: ${cores.begeEscuro};
-  color: ${cores.laranja};
+  background-color: ${cores.bgFooter};
+  color: ${cores.inputTxtColor};
   border: none;
   height: 32px;
   width: 100%;

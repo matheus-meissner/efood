@@ -2,7 +2,7 @@ import { Cabecalho, CabecalhoImg, HomeLink, Logo } from './styles'
 
 import bgImg from '../../assets/images/Vector.svg'
 import logo from '../../assets/images/logo.svg'
-import { Restaurante } from '../../pages/Home'
+import { Restaurante } from '../../Pages/Home'
 import { useDispatch, useSelector } from 'react-redux'
 import { RootReducer } from '../../store'
 import { open } from '../../store/reducers/cart'

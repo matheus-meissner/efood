@@ -3,12 +3,12 @@ import { cores } from '../../styles'
 import { Link } from 'react-router-dom'
 
 export const Card = styled.div`
-  border: 1px solid ${cores.laranja};
+  border: 1px solid ${cores.fontColor};
   max-width: 472px;
   width: 100%;
   font-size: 14px;
   overflow: hidden;
-  background-color: ${cores.branca};
+  background-color: ${cores.branco};
   position: relative;
 `
 
@@ -45,11 +45,11 @@ export const CardInfos = styled.div`
 `
 
 export const ButtonLink = styled(Link)`
-  color: ${cores.branca};
-  background-color: ${cores.laranja};
+  color: ${cores.branco};
+  background-color: ${cores.fontColor};
   text-decoration: none;
   padding: 4px 6px;
-  color: ${cores.begeEscuro};
+  color: ${cores.bgFooter};
   font-weight: bold;
 `
 

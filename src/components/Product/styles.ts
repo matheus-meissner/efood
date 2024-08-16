@@ -4,8 +4,8 @@ import { cores } from '../../styles'
 export const ProductCard = styled.div`
   width: 320px;
   padding: 8px;
-  background-color: ${cores.laranja};
-  color: ${cores.begeEscuro};
+  background-color: ${cores.fontColor};
+  color: ${cores.bgFooter};
   display: flex;
   flex-direction: column;
   position: relative;
@@ -24,12 +24,12 @@ export const ProductCard = styled.div`
   p {
     font-size: 14px;
     margin-bottom: 8px;
-    color: ${cores.begeEscuro};
+    color: ${cores.bgFooter};
   }
 
   button {
-    color: ${cores.laranja};
-    background-color: ${cores.begeEscuro};
+    color: ${cores.fontColor};
+    background-color: ${cores.bgFooter};
     border: none;
     font-size: 14px;
     font-weight: 700;
@@ -73,8 +73,8 @@ export const ModalContent = styled.div`
   > div {
     display: flex;
     padding: 0 0 32px 32px;
-    background-color: ${cores.laranja};
-    color: ${cores.begeEscuro};
+    background-color: ${cores.fontColor};
+    color: ${cores.bgFooter};
 
     > img {
       width: 280px;
@@ -115,8 +115,9 @@ export const ModalContent = styled.div`
         padding: 4px 7px;
         font-size: 14px;
         font-weight: 700;
-        background-color: ${cores.begeEscuro};
-        color: ${cores.laranja};
+        background-color: ${cores.bgFooter};
+        color: ${cores.fontColor};
+        cursor: pointer;
       }
     }
   }
