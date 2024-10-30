@@ -20,6 +20,7 @@ O **eFood** foi desenvolvido para simular a experiência de um aplicativo de ped
 - **React Router Dom**
 - **Redux**
 - **Styled Components**
+- **Typescript**
 
 ## 💻 Uso
 
