@@ -23,7 +23,7 @@ O **eFood** foi desenvolvido para simular a experiência de um aplicativo de ped
 
 ## 💻 Uso
 
-Para acessar o **Efood**, basta visitar a página: https://eplay-matheus-meissners-projects.vercel.app/
+Para acessar o **Efood**, basta visitar a página: https://efood-matheus-meissners-projects.vercel.app/
 
 ## 🤝 Contribuição
 
